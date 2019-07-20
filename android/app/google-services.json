@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "145602653552",
+    "firebase_url": "https://icecreamstores-7c066.firebaseio.com",
+    "project_id": "icecreamstores-7c066",
+    "storage_bucket": "icecreamstores-7c066.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:145602653552:android:32782c0872f31fc0",
+        "android_client_info": {
+          "package_name": "com.example.location_app"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "145602653552-9o8i3rnp9ru17f9d6ohjhjltel39tj97.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBVEwQ7huEPVXn7ERS62i1IG8PgeDH1cPc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "145602653552-9o8i3rnp9ru17f9d6ohjhjltel39tj97.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
