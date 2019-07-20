@@ -1,6 +1,6 @@
 # location_app
 
-A new Flutter application.
+A new Flutter Location application.
 
 ## Getting Started
 
