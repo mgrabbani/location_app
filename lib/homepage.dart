@@ -37,7 +37,8 @@ class _HomePageState extends State<HomePage> {
         .collection("ice_cream_stores")
         .orderBy('name')
         .snapshots();
-    timer = Timer.periodic(Duration(seconds: _uploadPeriod * 60), (Timer t) => getUserLocation());
+//    timer = Timer.periodic(Duration(seconds: _uploadPeriod * 60), (Timer t) => getUserLocation());
+    timer = Timer.periodic(Duration(seconds: 60), (Timer t) => getUserLocation());
     getUserLocation();
   }
 
@@ -79,8 +80,7 @@ class _HomePageState extends State<HomePage> {
           'time': formattedDate,
           'latitude': currentPosition.latitude,
           'longitude': currentPosition.longitude,
-        }
-    );
+        });
   }
 
   Future<Position> locateUser() async {
